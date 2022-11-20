@@ -1,4 +1,4 @@
-from imageai.Classification import ImageClassification
+from imageai import ImageClassification
 import os
 execution_path = os.getcwd()
 prediction = ImageClassification()
