@@ -1,5 +1,6 @@
-from imageai import ImageClassification
+from imageai.Classification import ImageClassification
 import os
+
 execution_path = os.getcwd()
 prediction = ImageClassification()
 prediction.setModelTypeAsResNet50()
